@@ -1,0 +1,52 @@
+/* $width: 70vw;
+$bgColor: #4B145B; */
+
+.container {
+  width: 68vw;
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  gap: 5%;
+  border-radius: 5px;
+  padding: 30px 40px;
+}
+.text-side h2{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.text-side {
+  width: 20%;
+}
+.q-and-a {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1130px){
+  .container h2 {
+    font-size: 1.3rem;
+  }
+  .card {
+    font-size: 0.8rem; 
+  }
+}
+@media only screen and (max-width: 951px) {
+  h2 {
+    padding-bottom: 14px;
+  }
+  .container {
+    display: block;
+    width: 90vw;
+  }
+  .text-side, .q-and-a {
+    width: 100%;
+  }
+} 
+@media only screen and (max-width: 561px) {
+  .container {
+    padding: 30px 5px;
+    margin: 30px 0;
+  }
+  div.question {
+    font-size: 12px;
+  }
+}
