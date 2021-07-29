@@ -1,0 +1,2 @@
+(this["webpackJsonpmenu-app"]=this["webpackJsonpmenu-app"]||[]).push([[0],{11:function(e,n,t){"use strict";t.r(n);t(1);var c=t(3),r=t.n(c),s=(t(8),t(9),t(0));var i=function(){return Object(s.jsx)("div",{className:"App",children:Object(s.jsx)("main",{children:"Akerele"})})};r.a.render(Object(s.jsx)(i,{}),document.getElementById("root"))},8:function(e,n,t){},9:function(e,n,t){}},[[11,1,2]]]);
+//# sourceMappingURL=main.566e954a.chunk.js.map
