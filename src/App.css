@@ -1,10 +1,19 @@
 /* $font: 'Raleway', sans-serif;
 $fontSize: 150px;
 $bgColor: #4B145B; */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+  text-align: center;
 }
-
-
+.line {
+  width: 50px;
+  height: 4px;
+  background-color: #CD9D5F;
+  margin: 0 auto .5%;
+}

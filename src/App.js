@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css'
+import Nav from './components/Nav';
+import Container from './components/container';
 
 function App() {
 
   return (
     <div className="App">
-      <main>Akerele</main>
+      <h1>Our Menu</h1>
+      <div className='line'></div>
+      <Nav/>
+      <Container />
     </div>
   )
 }

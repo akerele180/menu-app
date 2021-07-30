@@ -1,0 +1,27 @@
+nav  {
+  margin: 20px 0;
+}
+ul {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */    
+  margin: 0 auto; 
+}
+nav li {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 5px;
+}
+nav a {
+  text-decoration: none; 
+  color: #CD9D5F;
+  padding: 2px 8px;
+}
+nav li:hover {
+  background-color: #CD9D5F;
+  border-radius: 3px;
+}
+nav a:hover {
+  color: #fff;
+}
